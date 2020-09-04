@@ -10,6 +10,7 @@ body {
     color: #1c93ae;
 }
 
+/* Intro */
 .intro {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('img/gautam-arora-78Ae6N7rNvI-unsplash.jpg');
     background-size: cover;
@@ -20,6 +21,60 @@ body {
 .intro h1 {
     font-size: 3.8em;
     letter-spacing: -3px;
+    font-weight: 900;
+}
+
+/* How to */
+.how {
+    padding-bottom: 3em;
+}
+
+.how h2 {
+    font-weight: 900;
+}
+
+.how-to {
+    height: 15em;
+    padding: 0 2em;
+    position: relative;
+    margin-top: 3.5em;
+    border-radius: .3em;
+}
+
+.how-to-1 {
+    background: #78c27c;
+}
+
+.how-to-2 {
+    
+    background: #ff9050;
+}
+
+.how-to-3 {
+    background: #d9a531;
+}
+
+.how-to-4 {
+    background: #ba95b7;
+}
+
+.how-to h1 {
+    font-size: 5em;
+    position: relative;
+    top: -0.6em;
+}
+
+.how-to h4 {
+    color: white;
+    font-weight: 900;
+    position: relative;
+    top: -2em;
+}
+
+.how-to p {
+    position: relative;
+    top: -2em;
+    color: whitesmoke;
 }
 
 /* Buttons */
