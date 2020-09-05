@@ -113,6 +113,30 @@ body {
     width: 100%;
 }
 
+/* covid-alert */
+.covid-alert {
+    background: url('img/items.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4em 0;
+}
+
+.statement-1 {
+    background: #e37238;
+    border-radius: .5em;
+    color: white;
+    padding: 4em 4em;
+}
+
+.statement-1 h2 {
+    font-weight: 900;
+    margin: 0 0 1em 0;
+}
+
+.statement-1 p {
+    border-left: 3px solid white;
+}
+
 /* Buttons */
 .big-btn {
     padding: .8em 2em;
