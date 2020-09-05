@@ -192,6 +192,30 @@ body {
     font-size: 2em;
 }
 
+/* enroll */
+.enroll {
+    margin: 3em 0 0 0;
+    padding: 5em 0 5em 0;
+    background: #e37238;
+}
+
+.enroll h1 {
+    font-weight: 900;
+    margin: 0 0 2em 0;
+}
+
+.enroll input {
+    background: transparent;
+    border-color: white;
+    height: 3em;
+}
+
+.enroll button {
+    background: white;
+    height: 3em;
+    color: #e37238;
+}
+
 /* Buttons */
 .big-btn {
     padding: .8em 2em;
