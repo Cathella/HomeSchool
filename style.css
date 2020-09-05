@@ -39,6 +39,7 @@ body {
     position: relative;
     margin-top: 3.5em;
     border-radius: .3em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
 }
 
 .how-to-1 {
@@ -87,6 +88,7 @@ body {
     height: 600px;
     overflow: hidden;
     border-radius: 1em;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .1);
 }
 
 .image-container-2 {
@@ -95,10 +97,20 @@ body {
     overflow: hidden;
     border-radius: 1em;
     float: right;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .1);
+}
+
+.image-container-3 {
+    width: 100%;
+    height: 143px;
+    overflow: hidden;
+    border-radius: .3em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
 }
 
 .image-container img,
-.image-container-2 img {
+.image-container-2 img,
+.image-container-3 img {
     width: 100%;
     height: auto;
 }
@@ -115,7 +127,7 @@ body {
     height: 60px;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #1c93ae;
+    border: 4px solid #1c93ae;
 }
 
 .profile img {
@@ -135,6 +147,7 @@ body {
     border-radius: .5em;
     color: white;
     padding: 4em 4em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
 }
 
 .statement-1 h2 {
@@ -166,6 +179,17 @@ body {
 
 .recommend-teachers li {
     line-height: 2.2;
+}
+
+/* convinient-school */
+.convinient-school {
+    padding: 5em 0;
+}
+
+.convinient-school h2 {
+    font-weight: 900;
+    margin: 0 auto 1em auto;
+    font-size: 2em;
 }
 
 /* Buttons */
