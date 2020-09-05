@@ -236,3 +236,191 @@ body {
 .orange-link {
     color: #e37238;
 }
+
+/* Responsive media queries */
+@media only screen and (max-width: 1199px) {
+    .intro h1 {
+        font-size: 3em;
+    }
+
+    .how-to p {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .intro {
+        padding: 6em 0;
+    }
+
+    .intro h1 {
+        font-size: 2.5em;
+        letter-spacing: -2px;
+    }
+
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .how-to p {
+        font-size: 1em;
+    }
+
+    .secondary-intro p {
+        font-size: 1em;
+        margin: 1em 0 0 0;
+    }
+
+    .covid-alert .col-md-6 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .recommend-teachers h2 {
+        font-size: 2em;
+        margin: 1em 0 1em 0;
+    }
+
+    .recommend-teachers ul {
+        font-size: .9em;
+    }
+
+    .recommend-teachers .big-btn {
+        font-size: 1em;
+    }
+
+    .image-container-2 {
+        width: 95%;
+        height: 450px;
+    }
+
+    .convinient-school .w-50 {
+        width: 75% !important;
+    }
+
+    .convinient-school .col-md-3 {
+        margin: 0 0 1em 0;
+    }
+
+    .enroll .col-md-6 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    header .justify-content-between {
+        flex-direction: column;
+    }
+
+    .intro h1 {
+        font-size: 1.8em;
+        letter-spacing: -1px;
+    }
+
+    .intro .big-btn,
+    .how-btn {
+        font-size: 1em;
+    }
+
+    .how-to p {
+        font-size: 0.8em;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 400px;
+        margin: 0 0 1em 0;
+    }
+
+    .covid-alert .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .image-container-2 {
+        width: 100%;
+        height: 400px;
+        margin: 3em 0 0 0;
+    }
+
+    footer {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 469px) {
+    .how {
+        padding-bottom: 3em;
+    }
+
+    .how-to p {
+        top: -4em;
+    }
+        
+    .how-to h4 {
+        top: -3em;
+    }
+
+    .image-container {
+        height: 300px;
+    }
+
+    .image-container-2 {
+        height: 350px;
+    }
+
+    .convinient-school {
+        padding: 1em 0;
+    }
+
+    .convinient-school .w-50 {
+        width: 100% !important;
+    }
+
+    .convinient-school h2 {
+        font-size: 1.8em;
+    }
+
+    .image-container-3 img {
+        height: 100%;
+    }
+
+    .enroll h1 {
+        font-size: 1.8em;
+    }
+
+    .enroll form {
+        text-align: center;
+    }     
+}
+
+@media only screen and (max-width: 458px) {
+    header ul{
+        font-size: .8em;
+    }
+
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .how-to h4 {
+        top: -2em;
+    }
+
+    .how-to p {
+        font-size: 1em;
+        top: -2em;
+    }
+
+    .image-container-3 {
+        height: 200px;
+    }
+
+    .image-container-3 img {
+        height: auto;
+    }
+        
+}
