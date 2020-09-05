@@ -89,7 +89,16 @@ body {
     border-radius: 1em;
 }
 
-.image-container img {
+.image-container-2 {
+    width: 80%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 1em;
+    float: right;
+}
+
+.image-container img,
+.image-container-2 img {
     width: 100%;
     height: auto;
 }
@@ -135,6 +144,28 @@ body {
 
 .statement-1 p {
     border-left: 3px solid white;
+}
+
+/* recommend teachers */
+.recommend-teachers {
+    padding: 6em 0;
+}
+
+.recommend-teachers h2 {
+    font-weight: 900;
+    color: #1c93ae;
+    font-size: 2.5em;
+    margin: 2.7em 0 1em 0;
+}
+
+.recommend-teachers ul {
+    color: #1c93ae;
+    list-style: none;
+    border-left: 3px solid #1c93ae;
+}
+
+.recommend-teachers li {
+    line-height: 2.2;
 }
 
 /* Buttons */
