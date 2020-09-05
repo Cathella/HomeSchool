@@ -108,9 +108,18 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
 }
 
+.image-container-4 {
+    width: 90%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: .3em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+}
+
 .image-container img,
 .image-container-2 img,
-.image-container-3 img {
+.image-container-3 img,
+.image-container-4 img {
     width: 100%;
     height: auto;
 }

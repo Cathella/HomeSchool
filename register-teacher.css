@@ -1,0 +1,81 @@
+.register-teachers {
+  margin: 4em 0;
+}
+
+.register-teachers h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #1c93ae;
+  margin: 1em 0 0.8em 0;
+}
+
+.register-teachers label {
+  color: #1c93ae;
+}
+
+.register-teachers input {
+  height: 3em;
+}
+
+.register-teachers button {
+  height: 3em;
+  background: #e37238;
+  color: white;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 1199px) {
+  .image-container-4 {
+    width: 85%;
+    height: 470px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .image-container-4 {
+    width: 100%;
+    height: 555px;
+  }
+
+  .register-teachers .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .register .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .image-container-4 {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .register-teachers h2 {
+    font-size: 2em;
+    margin: 1em .8em;
+  }
+
+  .register {
+    padding: 0 1.5em;
+  }
+
+  .register .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .register-teachers label {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 458px) {
+  .image-container-4 {
+    height: 315px;
+  }
+}
