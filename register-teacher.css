@@ -13,8 +13,13 @@
   color: #1c93ae;
 }
 
-.register-teachers input {
+.register-teachers input,
+.register-teachers select {
   height: 3em;
+}
+
+.register-teachers select {
+  font-size: 1em;
 }
 
 .register-teachers button {

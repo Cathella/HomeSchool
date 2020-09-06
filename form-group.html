@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teacher Registration</title>
+    <title>Study Group - Register</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
@@ -34,14 +34,54 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="image-container-4">
-                            <img src="img/john-torcasio-tgVm0tkbf1U-unsplash.jpg" alt="">
+                            <img src="img/jeremy-alford-ngOT6TG3qgs-unsplash.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="">
-                            <h2>Please, Join Us.</h2>
+                            <h2>Form a Study group.</h2>
                             <form action="#" class="register">
                                 <div class="row">
+                                    <div class="form-group col-md-12 mt-3 border-bottom">
+                                        <p>Tell us about the children</p>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="kids" class="">How many kids do you have?</label>
+                                        <select name="describe" class="form-control">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="grade" class="">Classes they belong</label>
+                                        <select name="describe" class="form-control">
+                                            <option value="1">Baby</option>
+                                            <option value="2">Middle</option>
+                                            <option value="3">Top</option>
+                                            <option value="4">P.1</option>
+                                            <option value="5">P.2</option>
+                                            <option value="6">P.3</option>
+                                            <option value="7">P.4</option>
+                                            <option value="8">P.5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="location" class="">Have a location you could host a study group?</label>
+                                        <select name="location" class="form-control">
+                                            <option value="0">Yes</option>
+                                            <option value="1">No</option>
+                                            <option value="2">I am not sure</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12 mt-3 border-bottom">
+                                        <p>We need your details</p>
+                                    </div>
                                     <div class="form-group col-md-6">
                                         <label for="first-name" class="">First Name</label>
                                         <input type="text" name="first-name" class="form-control">
@@ -62,11 +102,14 @@
                                         <label for="address" class="">Where do you stay?</label>
                                         <input type="text" name="address" class="form-control">
                                     </div>
-                                    <div class="form-group mt-3 col-md-12">
-                                        <div class="row">
-                                            <label for="phone" class="col-md-5">Upload Resume</label>
-                                            <input type="file" name="resume" class="col-md-7">
-                                        </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="describe" class="">Your current situation</label>
+                                        <select name="describe" class="form-control">
+                                            <option value="1">I have formed a group and found a teacher</option>
+                                            <option value="2">I want form a group and match with a teacher</option>
+                                            <option value="3">I want to join an existing group</option>
+                                            <option value="3">I really dont know how to start</option>
+                                        </select>
                                     </div>
                                     <div class="form-group col-md-12">
                                         <button type="submit" class="btn form-control">Submit Application</button>
