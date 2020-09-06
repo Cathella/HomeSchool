@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group - Register</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register-teacher.css">
+</head>
+<body>
+    <header class="border-bottom pt-3 pb-3">
+        <nav class="d-flex justify-content-between container">
+            <a class="nav-link logo" href="index.html">🏠 HomeSchool</a>
+            <ul class="d-flex nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Contact</a>
+                </li>
+                <li class="nav-item ml-5">
+                    <a class="nav-link orange-link" href="register-teacher.html">Become a teacher</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="register-teachers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="image-container-4">
+                            <img src="img/jeremy-alford-ngOT6TG3qgs-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="">
+                            <h2>Form a Study group.</h2>
+                            <form action="#" class="register">
+                                <div class="row">
+                                    <div class="form-group col-md-12 mt-3 border-bottom">
+                                        <p>Tell us about the children</p>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="kids" class="">How many kids do you have?</label>
+                                        <select name="describe" class="form-control">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="grade" class="">Classes they belong</label>
+                                        <select name="describe" class="form-control">
+                                            <option value="1">Baby</option>
+                                            <option value="2">Middle</option>
+                                            <option value="3">Top</option>
+                                            <option value="4">P.1</option>
+                                            <option value="5">P.2</option>
+                                            <option value="6">P.3</option>
+                                            <option value="7">P.4</option>
+                                            <option value="8">P.5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="location" class="">Have a location you could host a study group?</label>
+                                        <select name="location" class="form-control">
+                                            <option value="0">Yes</option>
+                                            <option value="1">No</option>
+                                            <option value="2">I am not sure</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12 mt-3 border-bottom">
+                                        <p>We need your details</p>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="first-name" class="">First Name</label>
+                                        <input type="text" name="first-name" class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="last-name" class="">Last Name</label>
+                                        <input type="text" name="last-name" class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="email" class="">Email</label>
+                                        <input type="text" name="email" class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="phone" class="">Phone</label>
+                                        <input type="text" name="phone" class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="address" class="">Where do you stay?</label>
+                                        <input type="text" name="address" class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="describe" class="">Your current situation</label>
+                                        <select name="describe" class="form-control">
+                                            <option value="1">I have formed a group and found a teacher</option>
+                                            <option value="2">I want form a group and match with a teacher</option>
+                                            <option value="3">I want to join an existing group</option>
+                                            <option value="3">I really dont know how to start</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <button type="submit" class="btn form-control">Submit Application</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="convinient-school">
+            <div class="container text-center">
+                <h2 class="w-50">See how school just got more convinient.</h2>
+                <p>Classes can be held anywhere - can be at your house, 
+                    backyard or living room.
+                </p>
+                <div class="row mt-5 pt-5">
+                    <div class="col-md-3">
+                        <div class="image-container-3">
+                            <img src="img/feat-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="image-container-3">
+                            <img src="img/feat-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="image-container-3">
+                            <img src="img/feat-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="image-container-3">
+                            <img src="img/bg.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="text-white enroll">
+            <div class="container">
+                <h1 class="text-center">👌 Enroll today!</h1>
+                <div class="row">
+                    <form action="#" class="col-md-6 mx-auto">
+                        <div class="form-group">
+                            <div class="row">
+                                <label for="students" class="col-md-5">How many Students?</label>
+                                <input type="text" name="students" class="form-control col-md-7">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <label for="email" class="col-md-5">Your Email Address</label>
+                                <input type="text" name="email" class="form-control col-md-7">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <label for="" class="col-md-5"></label>
+                                <button type="submit" class="btn form-control col-md-7">Sign Up</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+    </main>
+
+    <footer class="border-top pt-3 pb-3">
+        <nav class="d-flex justify-content-between container">
+            <a class="nav-link text-dark" href="#">Home School</a>
+            <a class="nav-link text-dark" href="#">Connecting teachers with amazing families with children</a>
+        </nav>
+    </footer>
+</body>
+</html>
